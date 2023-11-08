@@ -1,0 +1,47 @@
+import java.util.*;
+public class Area {
+
+	public static void main(String[] args) {
+		Rectangle rectangle=new Rectangle();
+		Circle circle=new Circle();
+		Triangle triangle=new Triangle();
+		rectangle.getarea();
+		circle.getarea();
+		triangle.getarea();
+		
+
+	}
+
+}
+interface shape{
+	Scanner sc=new Scanner(System.in);
+	public  void  getarea();
+}
+class Rectangle implements shape{
+	public void getarea() {
+		int length,breadth;
+		System.out.println("enter the length and breadth of rectangle");
+		length=sc.nextInt();
+		breadth=sc.nextInt();
+		int area=length*breadth;
+		System.out.println("Area="+area);
+	}
+}
+class Circle implements shape{
+	public void getarea() {
+		float radius;
+		System.out.println("enter the radius of circle");
+		radius=sc.nextFloat();
+		System.out.println("Area="+3.14f*radius*radius);
+		
+	}
+}
+class Triangle implements shape{
+	public void getarea() {
+		int height,base;
+		System.out.println("enter the height and base of triangle");
+		height=sc.nextInt();
+		base=sc.nextInt();
+		System.out.println("Area="+ (base*height)/2);
+	}
+}
