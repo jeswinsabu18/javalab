@@ -14,7 +14,7 @@ public static void main(String[]args) {
 		
 		Fish fish=new Fish();
 		System.out.println("FISH");
-		fish.setname("mini");
+		fish.setname("mimi");
 		System.out.println("this fish's name is "+fish.getname());
 		fish.eat();
 		fish.walk();
@@ -22,11 +22,11 @@ public static void main(String[]args) {
 		System.out.println("this fish's name is "+fish.getname());
 		System.out.println("Cat");
 		Cat cat=new Cat("fluffy");
-		System.out.println("the cat's name is "+fish.getname());
+		System.out.println("the cat's name is "+cat.getname());
 		cat.walk();
 		cat.eat();
 		cat.setname("moose");
-		System.out.println("this fish's name is "+fish.getname());
+		System.out.println("this fish's name is "+cat.getname());
 		System.out.println("spider");
 		Spider spider=new Spider();
 		spider.eat();
