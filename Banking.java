@@ -160,7 +160,4 @@ public class Banking {
 		System.out.println("Accounttype="+accountType);
 		System.out.println("________________________________");
 	}
-	public void searchAccountNumber(){
-		
-	}
 }
