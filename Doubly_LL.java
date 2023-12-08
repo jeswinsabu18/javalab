@@ -2,7 +2,7 @@
  * Author		:	Jeswin sabu
  * version		:	1.0
  * description	:	implementation of doubly linked list
- * date			:	24/11/23
+ * date			:	08/12/23
  */
 package javalab;
 
